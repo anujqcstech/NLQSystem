@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+h6 {
+    margin: 0;
+}
+
+.featureCard svg {
+    font-size: 18px;
+}
+
+svg {
+    color: #0d6efd;
+}
+
+.dashboard svg {
+    color: #000;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.login-benefits {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.brand-logo {
+    width: 85px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.login .card {
+    background-color: #f0f0f0;
+}
+
+.icon-bg-one {
+    background-color: #fff;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 7px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: auto;
+    right: 0;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
+.ChatbotMasterCard .card-body {
+    min-height: 50vh;
+}
+
+.quickAsk {
+    /* background-color: #f4f4f4; */
+    margin-top: 7px;
+    border-radius: 7px;
+    padding: 7px;
+    font-weight: 600;
+    border: 1px solid #dbdbdb;
+}
