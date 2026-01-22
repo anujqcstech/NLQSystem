@@ -6,7 +6,7 @@ import { FiMessageSquare } from "react-icons/fi";
 
 const ChatbotMasterCard = ({ headerText }) => {
     return (
-        <div className='ChatbotMasterCard card'>
+        <main className='ChatbotMasterCard card'>
             <div className="card-header"><h6><FiMessageSquare /> {headerText}</h6></div>
             <div className="card-body">
                 All chats will be here...
@@ -16,7 +16,7 @@ const ChatbotMasterCard = ({ headerText }) => {
                 {/* <textarea name="" id="" className='form-control' rows={1} placeholder='e.g., show top 10 suppliers by payment...'></textarea> */}
                 <button className="btn btn-primary" disabled><FiSend className='text-light' /></button>
             </div>
-        </div>
+        </main>
     )
 }
 

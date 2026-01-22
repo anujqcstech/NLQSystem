@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-primary: #212121;
+    --bg-secondary: #000;
+    --blue: #0d6efd
+}
+
 body {
     font-size: 14px;
+    /* background-color: var(--bg-primary); */
 }
 
 h6 {
@@ -17,15 +24,35 @@ h6 {
 }
 
 svg {
-    color: #0d6efd;
+    color: var(--blue);
 }
 
-.dashboard svg {
-    color: #000;
+li {
+    list-style: none;
+}
+
+a {
+    width: 100%;
+    display: inline-block;
+    padding: 3px 8px;
+    text-decoration: none;
+    color: initial;
+}
+
+.active svg {
+    color: #fff;
 }
 
 .small {
     font-size: 14px;
+}
+
+.active {
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 7px;
+    width: 100%;
+    display: inline-block;
 }
 
 .login-benefits {
@@ -65,15 +92,15 @@ img {
     margin-top: var(--bs-dropdown-spacer);
 }
 
-.ChatbotMasterCard .card-body {
-    min-height: 50vh;
+.quickAsk {
+    margin-top: 7px;
+    font-weight: 600;
 }
 
-.quickAsk {
-    /* background-color: #f4f4f4; */
-    margin-top: 7px;
-    border-radius: 7px;
-    padding: 7px;
-    font-weight: 600;
-    border: 1px solid #dbdbdb;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    width: 100%;
+    min-height: calc(100vh - 59px);
 }

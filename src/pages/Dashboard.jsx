@@ -1,26 +1,25 @@
-import React from 'react'
-import HeaderDashboard from '../components/HeaderDashboard'
-import ChatbotMasterCard from '../components/ChatbotMasterCard'
-import QuickExampleCard from '../components/QuickExampleCard'
+// import React from "react";
+// import { Outlet } from "react-router-dom";
 
+// import HeaderDashboard from "../components/HeaderDashboard";
+// import DashSidebarLeft from "../components/DashSidebarLeft";
+// import DashSidebarRight from "../components/DashSidebarRight";
 
+// const Dashboard = () => {
+//     return (
+//         <section className="dashboard">
+//             <HeaderDashboard />
 
-const Dashboard = () => {
-    return (
-        <section className='dashboard'>
-            <HeaderDashboard />
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 mt-5">
-                        <ChatbotMasterCard headerText={"Natural Language Query"} />
-                    </div>
-                    <div className="col-lg-4 mt-5">
-                        <QuickExampleCard headerText={'Quick Examples'} />
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
+//             <div className="grid-container">
+//                 <DashSidebarLeft />
 
-export default Dashboard
+//                 {/* CENTER CONTENT CHANGES HERE */}
+//                 <Outlet />
+
+//                 <DashSidebarRight />
+//             </div>
+//         </section>
+//     );
+// };
+
+// export default Dashboard;

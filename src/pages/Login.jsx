@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../public/logo.png'
+import logo from '../assets/images/logo.png'
 import { IoGlobeOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
@@ -23,12 +23,12 @@ const Login = () => {
                         <div>
                             <h4>Sign In</h4>
                             <p className='text-secondary'>with your Internet Identity</p>
-                            <Link to={'/dashboard'} className="btn btn-dark w-100">Continue</Link>
+                            <Link to={'/dashboard/chat'} className="btn btn-dark w-100">Continue</Link>
                             <hr />
 
                             <div className="form-check form-switch mt-3">
                                 <input className="form-check-input" type="checkbox" role="switch" id="switchCheckDefault" />
-                                <label className="form-check-label" for="switchCheckDefault">Enable multiple account</label>
+                                <label className="form-check-label" htmlFor="switchCheckDefault">Enable multiple account</label>
                             </div>
                         </div>
                     </div>
