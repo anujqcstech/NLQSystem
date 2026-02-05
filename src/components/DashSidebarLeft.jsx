@@ -35,13 +35,6 @@ const DashSidebarLeft = () => {
         { icon: <AiFillSound />, text: "Marketing & Growth" },
     ]
 
-
-
-    const handleClick = (link) => {
-        console.log("Clicked on:", link);
-        setActiveItem(link);
-    }
-
     return (
         <aside className='left_sidebar'>
             <div className="card h-100">
