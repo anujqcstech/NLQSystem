@@ -142,3 +142,12 @@ img {
     height: calc(100vh - 56px);
     overflow: auto;
 }
+
+.sidebar-link:hover {
+    background: #f5f5f5;
+    border-radius: 7px;
+}
+
+.sidebar-link.active:hover {
+    background-color: var(--blue);
+}
